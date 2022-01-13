@@ -1,5 +1,6 @@
 #!/bin/sh
 
+echo "Start L2 geth"
 ./refl2geth --datadir data_l2 \
     --networkid 901 --catalyst \
     --http --http.api "net,eth,consensus,engine" \
